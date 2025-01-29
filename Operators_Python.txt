@@ -1,0 +1,203 @@
+1. Arithmetic Operators
+Used to perform mathematical operations.
+
+Operator	Description	Example
++	Addition	3 + 2 = 5
+-	Subtraction	3 - 2 = 1
+*	Multiplication	3 * 2 = 6
+/	Division	3 / 2 = 1.5
+%	Modulus (remainder)	3 % 2 = 1
+**	Exponentiation	3 ** 2 = 9
+//	Floor Division	3 // 2 = 1
+2. Comparison Operators
+Used to compare two values.
+
+Operator	Description	Example
+==	Equal to	3 == 2 → False
+!=	Not equal to	3 != 2 → True
+>	Greater than	3 > 2 → True
+<	Less than	3 < 2 → False
+>=	Greater than or equal to	3 >= 2 → True
+<=	Less than or equal to	3 <= 2 → False
+3. Logical Operators
+Used to combine conditional statements.
+
+Operator	Description	Example
+and	True if both conditions are True	True and False → False
+or	True if at least one condition is True	True or False → True
+not	Reverses the result of the condition	not True → False
+4. Assignment Operators
+Used to assign values to variables.
+
+Operator	Description	Example
+=	Assign	x = 5
++=	Add and assign	x += 3 → x = x + 3
+-=	Subtract and assign	x -= 3 → x = x - 3
+*=	Multiply and assign	x *= 3 → x = x * 3
+/=	Divide and assign	x /= 3 → x = x / 3
+%=	Modulus and assign	x %= 3 → x = x % 3
+**=	Exponentiate and assign	x **= 3 → x = x ** 3
+//=	Floor divide and assign	x //= 3 → x = x // 3
+5. Membership Operators
+Used to check if a value exists in a sequence (e.g., list, string, tuple).
+
+Operator	Description	Example
+in	True if value exists in the sequence	'a' in 'apple' → True
+not in	True if value does not exist	'b' not in 'apple' → True
+6. Identity Operators
+Used to compare the memory locations of two objects.
+
+Operator	Description	Example
+is	True if both variables point to the same object	x is y → True
+is not	True if both variables point to different objects	x is not y → True
+7. Bitwise Operators
+Used to perform operations on binary numbers.
+
+Operator	Description	Example
+&	Bitwise AND	5 & 3 → 1
+`	`	Bitwise OR	`5	3 → 7`
+^	Bitwise XOR	5 ^ 3 → 6
+~	Bitwise NOT (inverts bits)	~5 → -6
+<<	Left shift (shifts bits to the left)	5 << 1 → 10
+>>	Right shift (shifts bits to the right)	5 >> 1 → 2
+8. Ternary Operator
+A shorthand for if-else.
+
+Syntax	Example
+value_if_true if condition else value_if_false	x = 5 if y > 0 else 10
+9. Walrus Operator (Python 3.8+)
+Used to assign a value to a variable as part of an expression.
+
+Syntax	Example
+:=	if (n := len('hello')) > 3: print(n)
+10. Operator Precedence
+The order in which operators are evaluated. From highest to lowest precedence:
+
+Parentheses ()
+
+Exponentiation **
+
+Bitwise NOT ~, Unary plus +, Unary minus -
+
+Multiplication *, Division /, Floor Division //, Modulus %
+
+Addition +, Subtraction -
+
+Bitwise shifts <<, >>
+
+Bitwise AND &
+
+Bitwise XOR ^
+
+Bitwise OR |
+
+Comparison operators (==, !=, >, <, >=, <=)
+
+Logical NOT not
+
+Logical AND and
+
+Logical OR or
+
+Assignment operators (=, +=, -=, etc.)1. Arithmetic Operators
+Used to perform mathematical operations.
+
+Operator	Description	Example
++	Addition	3 + 2 = 5
+-	Subtraction	3 - 2 = 1
+*	Multiplication	3 * 2 = 6
+/	Division	3 / 2 = 1.5
+%	Modulus (remainder)	3 % 2 = 1
+**	Exponentiation	3 ** 2 = 9
+//	Floor Division	3 // 2 = 1
+2. Comparison Operators
+Used to compare two values.
+
+Operator	Description	Example
+==	Equal to	3 == 2 → False
+!=	Not equal to	3 != 2 → True
+>	Greater than	3 > 2 → True
+<	Less than	3 < 2 → False
+>=	Greater than or equal to	3 >= 2 → True
+<=	Less than or equal to	3 <= 2 → False
+3. Logical Operators
+Used to combine conditional statements.
+
+Operator	Description	Example
+and	True if both conditions are True	True and False → False
+or	True if at least one condition is True	True or False → True
+not	Reverses the result of the condition	not True → False
+4. Assignment Operators
+Used to assign values to variables.
+
+Operator	Description	Example
+=	Assign	x = 5
++=	Add and assign	x += 3 → x = x + 3
+-=	Subtract and assign	x -= 3 → x = x - 3
+*=	Multiply and assign	x *= 3 → x = x * 3
+/=	Divide and assign	x /= 3 → x = x / 3
+%=	Modulus and assign	x %= 3 → x = x % 3
+**=	Exponentiate and assign	x **= 3 → x = x ** 3
+//=	Floor divide and assign	x //= 3 → x = x // 3
+5. Membership Operators
+Used to check if a value exists in a sequence (e.g., list, string, tuple).
+
+Operator	Description	Example
+in	True if value exists in the sequence	'a' in 'apple' → True
+not in	True if value does not exist	'b' not in 'apple' → True
+6. Identity Operators
+Used to compare the memory locations of two objects.
+
+Operator	Description	Example
+is	True if both variables point to the same object	x is y → True
+is not	True if both variables point to different objects	x is not y → True
+7. Bitwise Operators
+Used to perform operations on binary numbers.
+
+Operator	Description	Example
+&	Bitwise AND	5 & 3 → 1
+`	`	Bitwise OR	`5	3 → 7`
+^	Bitwise XOR	5 ^ 3 → 6
+~	Bitwise NOT (inverts bits)	~5 → -6
+<<	Left shift (shifts bits to the left)	5 << 1 → 10
+>>	Right shift (shifts bits to the right)	5 >> 1 → 2
+8. Ternary Operator
+A shorthand for if-else.
+
+Syntax	Example
+value_if_true if condition else value_if_false	x = 5 if y > 0 else 10
+9. Walrus Operator (Python 3.8+)
+Used to assign a value to a variable as part of an expression.
+
+Syntax	Example
+:=	if (n := len('hello')) > 3: print(n)
+10. Operator Precedence
+The order in which operators are evaluated. From highest to lowest precedence:
+
+Parentheses ()
+
+Exponentiation **
+
+Bitwise NOT ~, Unary plus +, Unary minus -
+
+Multiplication *, Division /, Floor Division //, Modulus %
+
+Addition +, Subtraction -
+
+Bitwise shifts <<, >>
+
+Bitwise AND &
+
+Bitwise XOR ^
+
+Bitwise OR |
+
+Comparison operators (==, !=, >, <, >=, <=)
+
+Logical NOT not
+
+Logical AND and
+
+Logical OR or
+
+Assignment operators (=, +=, -=, etc.)
